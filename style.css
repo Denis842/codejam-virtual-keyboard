@@ -1,0 +1,74 @@
+body {
+  width: 800px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+body textarea {
+  width: 800px;
+  height: 400px;
+  background: #fff;
+  color: #000;
+}
+
+body .keyboard {
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+body .keyboard input {
+  height: 45px;
+  width: 45px;
+  margin: 4px;
+  color: #fff;
+  border-radius: 5px;
+  background: #736c6c;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+body .keyboard input.active {
+  border-radius: 22.5px;
+  background: white;
+  border: 1px solid #736c6c;
+  color: #736c6c;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+body .keyboard input#Backspace {
+  width: 100px;
+}
+
+body .keyboard input#Delete {
+  width: 60px;
+}
+
+body .keyboard input#Tab {
+  width: 85px;
+}
+
+body .keyboard input#Del {
+  width: 60px;
+}
+
+body .keyboard input#CapsLock {
+  width: 90px;
+}
+
+body .keyboard input#Enter {
+  width: 109px;
+}
+
+body .keyboard input#ShiftLeft {
+  width: 154px;
+}
+
+body .keyboard input#Space {
+  width: 366px;
+}
